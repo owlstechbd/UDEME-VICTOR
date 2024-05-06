@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* home page css */
+nav{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    width: 100%;
+}
+.menu ul li a{
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: .6s;
+}
+.logo a{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+
+}
+#about-me{
+    width: 100%;
+    padding: 100px 0;
+}
+.menu ul li a:hover{
+    color:red;
+}
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+.hero-section{
+    display: flex;
+    width: 100%;
+    padding: 100px 0;
+    background: #d0eefa;
+}
+.hero{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-left{
+    width: 50%;
+}
+.hero-left h3{
+    color: #333;
+    font-size: 18px;
+}
+.hero-left h1{
+    color: #333;
+    margin: 10px 0;
+}
+.hero-left h1 span{
+    color: red;
+  
+}
+.hero-left h2{
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.hero-left p{
+    color: #454444;
+    margin-bottom: 30px;
+}
+.hero-left a{
+    background: red;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 4px;
+}
+.hero-right {
+    width: 40%;
+}
+.hero-right img{
+    width: 100%;
+}
+.hero-right video{
+    width: 100%;
+}
+.experience{
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h1{
+    display: inline-block;
+    border-bottom: 1px #000 solid;
+}
+.experience-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-iteam{
+    width: 45%;
+}
+.box-iteam  p{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.box-iteam li{
+    margin-top: 15px;
+}
+footer{
+    background: #000;
+    width: 100%;
+    padding: 50px 0;
+}
+.footer-title{
+    color: #fff;
+}
+.footer-title ul li{
+    margin-top: 15px;
+}
+.footer-title ul li a{
+    color: #fff;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy{
+    color: #fff;
+}
+/* cv page css */
+.cv{
+    width: 100%;
+    padding: 100px 0;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    border:1px solid black;
+}
+td p{
+    padding: 0 10px;
+}
+td ol {
+    padding: 20px;
+}
+td ol li{
+    list-style: decimal;
+    margin-bottom: 10px;
+}
+
+
+/* refective-writing */
+.refective-writing{
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+}
+.box{
+    margin-bottom: 20px;
+    border: 1px #e5e5e5 solid;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
+}
+
+/* contact */
+.contact{
+    width: 100%;
+    padding: 100px 0;
+}
+#contact-form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
+}
+#contact-form input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+#contact-form textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+#contact-form button{
+    padding: 10px 30px;
+}
